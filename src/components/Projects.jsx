@@ -1,7 +1,9 @@
 const Projects = () => {
     return (
+
         <div className="p-10 w-4/5 mx-auto" >
-            <h2 className="text-black font-semibold text-5xl mb-6 text-center md:text-start p-10">Projects</h2>
+            <hr className="bg-[#BAB2E7] border border-[#BAB2E7] w-full mx-auto my-8" />
+            <h2 className="text-black font-semibold text-5xl mb-6 text-start p-10">Projects</h2>
             <div className="flex flex-row justify-between p-10 items-center gap-8" >
                 <div className="flex flex-col w-3/5 gap-2">
                     <div>

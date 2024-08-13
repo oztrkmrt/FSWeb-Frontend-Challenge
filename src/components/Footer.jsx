@@ -2,8 +2,8 @@ const Footer = () => {
     return (
         <div className="bg-[#F9F9F9]">
             <div className="p-20 w-4/5 mx-auto">
-                <h2 className="text-black font-semibold text-4xl mb-6 text-center md:text-start">Let’s work together on <br /> your next product</h2>
-                <div className="font-semibold flex justify-between">
+                <h2 className="text-black font-semibold text-4xl mb-6 text-start">Let’s work together on <br /> your next product</h2>
+                <div className="font-semibold flex justify-between my-20">
                     <div className="flex">
                         <img src="../../public/mail-logo.png" alt="" />
                         <a className="text-[#AF0C48] ml-2 underline" href="mailto:merttoztrk@gmail.com">merttoztrk@gmail.com</a>
