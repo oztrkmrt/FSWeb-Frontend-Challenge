@@ -7,6 +7,7 @@ import ModeSwitch from './components/ModeSwitch'
 import Profile from './components/Profile'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import LanguageProvider from './context/LanguageContext'
 import ThemeProvider from './context/ThemeContext'
 
 function App() {
@@ -14,15 +15,17 @@ function App() {
 
   return (
     <>
-      <ThemeProvider>
-        <ModeSwitch />
-        <Header />
-        <Hero />
-        <Skills />
-        <Profile />
-        <Projects />
-        <Footer />
-      </ThemeProvider>
+      <LanguageProvider>
+        <ThemeProvider>
+          <ModeSwitch />
+          <Header />
+          <Hero />
+          <Skills />
+          <Profile />
+          <Projects />
+          <Footer />
+        </ThemeProvider>
+      </LanguageProvider>
     </>
   )
 }

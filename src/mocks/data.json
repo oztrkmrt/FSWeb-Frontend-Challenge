@@ -1,11 +1,13 @@
 {
     "en": {
-        "header": {
+        "modeswitch": {
             "darkMode": "DARK MODE",
             "lightMode": "LIGHT MODE",
             "language": "TÜRKÇE",
             "languageSuffix": "'YE GEÇ",
-            "languagePrefix": "",
+            "languagePrefix": ""
+        },
+        "header": {
             "skills": "Skills",
             "projects": "Projects",
             "hireMe": "Hire me"
@@ -14,7 +16,7 @@
             "name": "Mert Öztürk",
             "title": "Creative thinker Minimalism lover",
             "description": "Hi, I’m Mert. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
-            "heroImage": "../../Assets/Images/hero.png",
+            "heroImage": "../../public/hero.png",
             "hireMe": "Hire me",
             "github": "Github",
             "linkedin": "Linkedin",
@@ -139,21 +141,23 @@
         }
     },
     "tr": {
+        "modeswitch": {
+            "darkMode": "DARK MODE",
+            "lightMode": "LIGHT MODE",
+            "language": "TÜRKÇE",
+            "languageSuffix": "'YE GEÇ",
+            "languagePrefix": ""
+        },
         "header": {
-            "darkMode": "GECE MODU",
-            "lightMode": "GÜNDÜZ MODU",
-            "language": "ENGLISH",
-            "languageSuffix": "",
-            "languagePrefix": "SWITCH TO ",
             "skills": "Beceriler",
             "projects": "Projeler",
             "hireMe": "İletişim"
         },
         "hero": {
             "name": "Mert Öztürk",
-            "title": "Yaratıcı düşünceler Minimalizm sevdalısı",
+            "title": "Yaratıcı düşünceler Minimalist yaklaşımlar",
             "description": "Merhaba, ben Mert. Full-stack geliştiriciyim. Harika kullanıcı deneyimleri ile sağlam ve ölçeklenebilir front-end ürünleri oluşturacak bir geliştirici mi arıyorsunuz? Hadi tanışalım.",
-            "heroImage": "../../Assets/Images/hero.png",
+            "heroImage": "../../public/hero.png",
             "hireMe": "İletişim",
             "github": "Github",
             "linkedin": "Linkedin",

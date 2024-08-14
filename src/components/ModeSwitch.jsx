@@ -1,9 +1,13 @@
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
+import { LanguageContext } from "../context/LanguageContext";
 
 const ModeSwitch = () => {
 
-    const { theme, toggleTheme } = useContext(ThemeContext)
+    const { theme, toggleTheme } = useContext(ThemeContext);
+    const { mockData, toggleLanguage } = useContext(LanguageContext);
+
+    const dataModeSwitch = mockData.modeswitch;
 
     return (
         <div className="px-20 py-12 w-4/5 mx-auto flex text-black justify-end mt-4">
@@ -27,7 +31,7 @@ const ModeSwitch = () => {
             </div>
             <span className="px-2">|</span>
             <span>
-                <span className="text-[#4338CA]">TÜRKÇE</span>
+                <span className="text-[#4338CA] cursor-pointer" onClick={toggleLanguage}>TÜRKÇE</span>
                 <span className="text-[#6B7280] ">'YE GEÇ</span>
             </span>
         </div>
