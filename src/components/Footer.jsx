@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="flex">
                         <a className="text-[#0A0A14] ml-8" href="#">Personal Blog</a>
                         <a className="text-[#00AB6B] ml-8" href="https://github.com/oztrkmrt">Github</a>
-                        <a className="text-[#0077B5] ml-8" href="https://www.linkedin.com/in/mert-%C3%B6zt%C3%BCrk-864693b8/">Linkedin</a>
+                        <a className="text-[#0077B5] ml-8" href="https://www.linkedin.com/in/mert-öztürk-864693b8/">Linkedin</a>
                     </div>
                 </div>
             </div>

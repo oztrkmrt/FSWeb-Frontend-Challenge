@@ -12,12 +12,12 @@ const Hero = () => {
                     Creative thinker <br /> Minimalism lover
                 </h1>
                 <p className="text-[#6B7280] text-lg">
-                    Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and
+                    Hi, I’m Mert. I’m a full-stack developer. If you are looking for a Developer who to craft solid and
                     scalable frontend products with great user experiences. Let’s shake hands with me.
                 </p>
                 <div className="flex">
                     <a className="px-5 pt-3 text-white bg-[#3730A3] font-semibold rounded mr-8" href="mailto:merttoztrk@gmail.com">Hire Me</a>
-                    <a className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded mr-8" href="">
+                    <a className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded mr-8" href="https://github.com/oztrkmrt">
                         <svg
                             width="26"
                             height="28"
@@ -32,7 +32,7 @@ const Hero = () => {
                         </svg>
                         Github
                     </a>
-                    <a className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded" href="">
+                    <a className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded" href="https://www.linkedin.com/in/mert-öztürk-864693b8/">
                         <svg
                             width="24"
                             height="26"

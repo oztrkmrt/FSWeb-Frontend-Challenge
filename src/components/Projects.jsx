@@ -8,7 +8,7 @@ const Projects = () => {
                 <div className="flex flex-col w-3/5 gap-2">
                     <div>
                         <img src="../../public/project1.png" alt="" />
-                        <h3 className="text-[#4338CA] font-medium text-3xl my-2">Workintech</h3>
+                        <h3 className="text-[#4338CA] font-medium text-3xl my-6">Workintech</h3>
                         <p className="text-[#6B7280] text-s">A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline.
                             This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes
                             any type of customization to code and themes possible.</p>
@@ -21,7 +21,7 @@ const Projects = () => {
                 <div className="flex flex-col w-3/5 gap-2">
                     <div>
                         <img src="../../public/project2.png" alt="" />
-                        <h3 className="text-[#4338CA] font-medium text-3xl my-2">Random Jokes</h3>
+                        <h3 className="text-[#4338CA] font-medium text-3xl my-6">Random Jokes</h3>
                         <p className="text-[#6B7280] text-s">A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline.
                             This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes
                             any type of customization to code and themes possible.</p>
@@ -34,7 +34,7 @@ const Projects = () => {
                 <div className="flex flex-col w-3/5 gap-2">
                     <div>
                         <img src="../../public/project3.png" alt="" />
-                        <h3 className="text-[#4338CA] font-medium text-3xl my-2">Workintech</h3>
+                        <h3 className="text-[#4338CA] font-medium text-3xl my-6">Journey</h3>
                         <p className="text-[#6B7280] text-s">A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline.
                             This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes
                             any type of customization to code and themes possible.</p>
