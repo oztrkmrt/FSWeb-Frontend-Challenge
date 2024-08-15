@@ -9,7 +9,7 @@ const LanguageProvider = ({ children }) => {
 
     const [language, setLanguage] = useLocalStorage("language", "en");
     const [mockData, setMockData] = useState({});
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(true)
 
     const postData = async () => {
         try {

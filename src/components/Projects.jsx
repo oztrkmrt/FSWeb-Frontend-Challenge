@@ -1,49 +1,42 @@
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
+
 const Projects = () => {
+
+    const { mockData } = useContext(LanguageContext);
+    const { projects } = mockData;
+
     return (
 
-        <div className="p-10 w-4/5 mx-auto" >
+        <div id="projects" className="p-10 w-4/5 mx-auto" >
             <hr className="bg-[#BAB2E7] border border-[#BAB2E7] w-full mx-auto my-8" />
-            <h2 className="text-black font-semibold text-5xl mb-6 text-start p-10">Projects</h2>
+            <h2 className="text-black font-semibold text-5xl mb-6 text-start p-10 dark:text-[#AEBCCF]">{projects.title}</h2>
             <div className="flex flex-row justify-between p-10 items-center gap-8" >
-                <div className="flex flex-col w-3/5 gap-2">
-                    <div>
-                        <img src="../../public/project1.png" alt="" />
-                        <h3 className="text-[#4338CA] font-medium text-3xl my-6">Workintech</h3>
-                        <p className="text-[#6B7280] text-s">A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline.
-                            This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes
-                            any type of customization to code and themes possible.</p>
-                    </div>
-                    <div className="flex justify-between">
-                        <a className="text-[#3730A3] font-semibold underline" href="https://github.com/oztrkmrt">Github</a>
-                        <a className="text-[#3730A3] font-semibold underline" href="#">View Site</a>
-                    </div>
-                </div>
-                <div className="flex flex-col w-3/5 gap-2">
-                    <div>
-                        <img src="../../public/project2.png" alt="" />
-                        <h3 className="text-[#4338CA] font-medium text-3xl my-6">Random Jokes</h3>
-                        <p className="text-[#6B7280] text-s">A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline.
-                            This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes
-                            any type of customization to code and themes possible.</p>
-                    </div>
-                    <div className="flex justify-between">
-                        <a className="text-[#3730A3] font-semibold underline" href="https://github.com/oztrkmrt">Github</a>
-                        <a className="text-[#3730A3] font-semibold underline" href="#">View Site</a>
-                    </div>
-                </div>
-                <div className="flex flex-col w-3/5 gap-2">
-                    <div>
-                        <img src="../../public/project3.png" alt="" />
-                        <h3 className="text-[#4338CA] font-medium text-3xl my-6">Journey</h3>
-                        <p className="text-[#6B7280] text-s">A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline.
-                            This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes
-                            any type of customization to code and themes possible.</p>
-                    </div>
-                    <div className="flex justify-between">
-                        <a className="text-[#3730A3] font-semibold underline" href="https://github.com/oztrkmrt">Github</a>
-                        <a className="text-[#3730A3] font-semibold underline" href="#">View Site</a>
-                    </div>
-                </div>
+                {projects.items.map((item, i) => {
+                    return (
+                        <div key={i} className="flex flex-col w-3/5 gap-2">
+                            <div>
+                                <img src={item.image} alt="" />
+                                <h3 className="text-[#4338CA] font-medium text-3xl my-6 dark:text-[#CFCBFF]">{item.title}</h3>
+                                <p className="text-[#6B7280] text-s dark:text-white">{item.description}</p>
+                            </div>
+                            <div className="flex justify-start gap-4 my-4">
+                                {item.technologies.map((t, i) => {
+                                    return (
+                                        <p key={i} className="text-[#3730A3] text-xs font-medium border border-[#3730A3] py-1 px-2 rounded dark:text-[#8F88FF] dark:border-[#8F88FF]">
+                                            {t}
+                                        </p>
+                                    )
+                                })}
+                            </div>
+                            <div className="flex justify-between">
+                                <a className="text-[#3730A3] font-semibold underline dark:text-[#E1E1FF]" href={item.links.github}>{item.github}</a>
+                                <a className="text-[#3730A3] font-semibold underline dark:text-[#E1E1FF]" href={item.links.viewSite}>{item.viewSite}</a>
+                            </div>
+                        </div>
+                    )
+                })}
+
             </div>
         </div>
     )

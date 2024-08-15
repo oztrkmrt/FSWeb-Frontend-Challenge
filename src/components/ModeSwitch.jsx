@@ -1,13 +1,14 @@
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import { LanguageContext } from "../context/LanguageContext";
+import { data } from "autoprefixer";
 
 const ModeSwitch = () => {
 
     const { theme, toggleTheme } = useContext(ThemeContext);
     const { mockData, toggleLanguage } = useContext(LanguageContext);
 
-    const dataModeSwitch = mockData.modeswitch;
+    const { modeswitch } = mockData;
 
     return (
         <div className="px-20 py-12 w-4/5 mx-auto flex text-black justify-end mt-4">
@@ -27,12 +28,13 @@ const ModeSwitch = () => {
                         />
                     </button>
                 </div>
-                <span className="pl-2">DARK MODE</span>
+                <span className="pl-4 text-[#777777] font-semibold dark:text-[#D9D9D9]">{theme === "dark" ? modeswitch.lightMode : modeswitch.darkMode}</span>
             </div>
-            <span className="px-2">|</span>
+            <span className="px-2 font-semibold dark:text-[#D9D9D9]">|</span>
             <span>
-                <span className="text-[#4338CA] cursor-pointer" onClick={toggleLanguage}>TÜRKÇE</span>
-                <span className="text-[#6B7280] ">'YE GEÇ</span>
+                <span className="text-[#6B7280] font-semibold dark:text-[#D9D9D9]">{modeswitch.languagePrefix}</span>
+                <span className="text-[#4338CA] font-semibold cursor-pointer dark:text-[#BAB2E7]" onClick={toggleLanguage}>{modeswitch.language}</span>
+                <span className="text-[#6B7280] font-semibold dark:text-[#D9D9D9]">{modeswitch.languageSuffix}</span>
             </span>
         </div>
     )
