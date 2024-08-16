@@ -133,6 +133,7 @@
             "personalBlog": "Personal Blog",
             "github": "Github",
             "linkedin": "Linkedin",
+            "image": "../../public/mail-logo.png",
             "links": {
                 "personalBlog": "#",
                 "github": "https://github.com/oztrkmrt",

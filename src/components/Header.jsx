@@ -7,9 +7,9 @@ const Header = () => {
     const { header } = mockData;
 
     const scroll = (id) => {
-        const section = document.getElementById(id);
-        if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
         }
     };
 
