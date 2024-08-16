@@ -133,7 +133,7 @@
             "personalBlog": "Personal Blog",
             "github": "Github",
             "linkedin": "Linkedin",
-            "image": "../../public/mail-logo.png",
+            "image": "./../../public/mail-logo.png",
             "links": {
                 "personalBlog": "#",
                 "github": "https://github.com/oztrkmrt",
@@ -274,7 +274,7 @@
             "personalBlog": "Kişisel Blog",
             "github": "Github",
             "linkedin": "Linkedin",
-            "image": "../../public/mail-logo.png",
+            "image": "./../../public/mail-logo.png",
             "links": {
                 "personalBlog": "#",
                 "github": "https://github.com/oztrkmrt",
