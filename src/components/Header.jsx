@@ -26,7 +26,7 @@ const Header = () => {
                     {header.projects}
                 </div>
                 <div className="text-[#3730A3] bg-white py-1 px-4 border border-[#3730A3] rounded dark:bg-[#E1E1FF] dark:text-black">
-                    <a className="px-5 font-medium rounded " href="mailto:merttoztrk@gmail.com">
+                    <a target="_blank" rel="noopener noreferrer" className="px-5 font-medium rounded " href="mailto:merttoztrk@gmail.com">
                         {header.hireMe}
                     </a>
                 </div>

@@ -23,8 +23,8 @@ const Hero = () => {
                     {hero.description}
                 </p>
                 <div className="flex">
-                    <a className="px-5 pt-3 text-white bg-[#3730A3] font-semibold rounded mr-8 dark:bg-[#E1E1FF] dark:text-black" href="mailto:merttoztrk@gmail.com">{hero.hireMe}</a>
-                    <a className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded mr-8 dark:border-[#E1E1FF] dark:bg-[#383838] dark:text-[#E1E1FF]" href="https://github.com/oztrkmrt">
+                    <a target="_blank" rel="noopener noreferrer" className="px-5 pt-3 text-white bg-[#3730A3] font-semibold rounded mr-8 dark:bg-[#E1E1FF] dark:text-black" href="mailto:merttoztrk@gmail.com">{hero.hireMe}</a>
+                    <a target="_blank" rel="noopener noreferrer" className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded mr-8 dark:border-[#E1E1FF] dark:bg-[#383838] dark:text-[#E1E1FF]" href="https://github.com/oztrkmrt">
                         <svg
                             width="26"
                             height="28"
@@ -39,7 +39,7 @@ const Hero = () => {
                         </svg>
                         {hero.github}
                     </a>
-                    <a className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded dark:border-[#E1E1FF] dark:bg-[#383838] dark:text-[#E1E1FF]" href="https://www.linkedin.com/in/mert-öztürk-864693b8/">
+                    <a target="_blank" rel="noopener noreferrer" className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded dark:border-[#E1E1FF] dark:bg-[#383838] dark:text-[#E1E1FF]" href="https://www.linkedin.com/in/mert-öztürk-864693b8/">
                         <svg
                             width="24"
                             height="26"
