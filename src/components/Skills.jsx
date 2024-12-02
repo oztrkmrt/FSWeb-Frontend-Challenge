@@ -9,7 +9,7 @@ const Skills = () => {
     return (
         <div id="skills" className="p-20 w-4/5 mx-auto">
             <h2 className="text-black font-semibold text-5xl mb-4 text-start py-8 dark:text-[#AEBCCF]">{skills.title}</h2>
-            <div className="flex">
+            <div className="grid grid-cols-2 gap-x-16 gap-y-10">
                 {skills.items.map((item, i) => {
                     return (
                         <div key={i} className="pr-16">

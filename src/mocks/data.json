@@ -16,7 +16,7 @@
             "name": "Mert Öztürk",
             "title": "Creative thinker Minimalism lover",
             "description": "Hi, I’m Mert. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
-            "heroImage": "/hero.png",
+            "heroImage": "/hero-img.png",
             "hireMe": "Hire me",
             "github": "Github",
             "linkedin": "Linkedin",
@@ -30,16 +30,20 @@
             "title": "Skills",
             "items": [
                 {
-                    "name": "JavaScript",
-                    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "name": "JavaScript / React",
+                    "description": "I am a developer specialising in JavaScript. Using ES6+ features effectively, I write clean and readable code with modern JavaScript constructs such as async/await, arrow functions, etc. Using the React library, I break down complex user interfaces into manageable and reusable components. Using JSX syntax, I create components in an HTML-like structure. Using modern React features such as hooks, I effectively manage state management and side effects. I can develop large-scale applications with state management solutions such as Redux or Context API. I create single-page applications with React Router."
                 },
                 {
-                    "name": "React.Js",
-                    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "name": "HTML / CSS",
+                    "description": "I utilise HTML, CSS and Tailwind CSS technologies to create modern, user-friendly web interfaces. The utility-first approach offered by Tailwind CSS enables me to create fast, customisable designs. I develop websites that are compatible with different screen sizes, in accordance with responsive design principles."
                 },
                 {
-                    "name": "Node.Js",
-                    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "name": "Java / Spring Boot",
+                    "description": "I design high-performance and scalable architectures using the Spring Boot framework. While developing RESTful APIs with Spring MVC, I facilitate database operations with Spring Data JPA. I protect my applications by creating security layers with Spring Security. I optimise the development process by configuring projects with Maven."
+                },
+                {
+                    "name": "SQL",
+                    "description": "With my experience in PostgreSQL and MS SQL, I can effectively use SQL commands such as JOIN, GROUP BY, HAVING, WHERE to obtain the information I want from databases. I can also design and manage advanced SQL objects such as stored procedures and functions."
                 }
             ]
         },
@@ -62,15 +66,14 @@
                     },
                     {
                         "label": "Preferred role",
-                        "value": "Frontend, UI"
+                        "value": "Frontend Developer, Backend Developer, Data Analyst"
                     }
                 ]
             },
             "aboutMe": {
                 "title": "About Me",
                 "descriptions": [
-                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-                    "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+                    "After about 6 years of geomatics engineering experience, I started with a passion to give a new direction to my career. First of all, I learnt HTML, CSS and JavaScript on my own and for more, I went to a 6-month full stack course. I am now quite knowledge about React, Redux, Context API, TailwindCSS, HTML, Javascript, Java, Spring Bot and SQL, and here I am now for more :)"
                 ]
             }
         },
@@ -78,51 +81,53 @@
             "title": "Projects",
             "items": [
                 {
-                    "title": "Workintech",
-                    "image": "/project1.png",
-                    "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                    "title": "Budget Tracking App",
+                    "image": "/budget-tracking.png",
+                    "description": "This project is a personal budget application where users can track their income and expenses. Users can track their income and can manage their budgets by entering expense items and categorising their expenses. The application allows users to can inform them by making warnings before they reach their expenditure limits. In addition, income and expenditure reports can be visualised.",
                     "technologies": [
-                        "react",
-                        "redux",
-                        "axios"
+                        "Next.js",
+                        "Tailwind CSS",
+                        "Context API",
+                        "Recharts"
                     ],
                     "github": "Github",
                     "viewSite": "View Site",
                     "links": {
-                        "github": "https://github.com/oztrkmrt",
-                        "viewSite": "#"
+                        "github": "https://github.com/oztrkmrt/Budget-Tracking",
+                        "viewSite": "https://budget-tracking-pi.vercel.app/"
                     }
                 },
                 {
-                    "title": "Random Jokes",
-                    "image": "/project2.png",
-                    "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                    "title": "Pizza App",
+                    "image": "/pizza.png",
+                    "description": "This web application, developed using the React library, allows users to easily create pizza orders. Users can customise their pizzas by selecting the pizza size, dough type and various toppings. They can also specify their special requests by adding an order note and specify the order quantity. After the order is completed, users are redirected to a page containing a summary of their order. This page contains information such as selected ingredients, size, dough type, order note and total price.",
                     "technologies": [
-                        "react",
-                        "redux",
-                        "axios"
+                        "React",
+                        "Bootstrap",
+                        "Axios"
                     ],
                     "github": "Github",
                     "viewSite": "View Site",
                     "links": {
-                        "github": "https://github.com/oztrkmrt",
-                        "viewSite": "#"
+                        "github": "https://github.com/oztrkmrt/Pizza-App",
+                        "viewSite": "https://pizza-app-rho-puce.vercel.app/"
                     }
                 },
                 {
-                    "title": "Journey",
-                    "image": "/project3.png",
-                    "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                    "title": "E Commerce App",
+                    "image": "/e-commerce.png",
+                    "description": "This e-commerce application is a user-friendly and scalable platform developed using modern web technologies. This application, which works seamlessly on different screen sizes (computer, tablet, mobile), allows users to easily discover products, add them to their basket and purchase them securely. There is also a product catalogue with categories and filtering options. Users can add and remove products from their baskets, change quantities and view order summary.",
                     "technologies": [
-                        "react",
-                        "redux",
-                        "axios"
+                        "React",
+                        "Redux",
+                        "Tailwind CSS",
+                        "Axios"
                     ],
                     "github": "Github",
                     "viewSite": "View Site",
                     "links": {
-                        "github": "https://github.com/oztrkmrt",
-                        "viewSite": "#"
+                        "github": "https://github.com/oztrkmrt/E-Commerce",
+                        "viewSite": "https://e-commerce-five-rust.vercel.app/"
                     }
                 }
             ]
@@ -133,11 +138,13 @@
             "personalBlog": "Personal Blog",
             "github": "Github",
             "linkedin": "Linkedin",
+            "CV": "CV",
             "image": "/mail-logo.png",
             "links": {
                 "personalBlog": "#",
                 "github": "https://github.com/oztrkmrt",
-                "linkedin": "https://www.linkedin.com/in/mert-öztürk-864693b8/"
+                "linkedin": "https://www.linkedin.com/in/mert-öztürk-864693b8/",
+                "CV": "https://drive.google.com/file/d/11Tfw0QorRX47w9irhkxlxy0CBWNVGKqS/view?usp=drive_link"
             }
         }
     },
@@ -158,7 +165,7 @@
             "name": "Mert Öztürk",
             "title": "Yaratıcı düşünceler Minimalist yaklaşımlar",
             "description": "Merhaba, ben Mert. Full-stack geliştiriciyim. Harika kullanıcı deneyimleri ile sağlam ve ölçeklenebilir front-end ürünleri oluşturacak bir geliştirici mi arıyorsunuz? Hadi tanışalım.",
-            "heroImage": "/hero.png",
+            "heroImage": "/hero-img.png",
             "hireMe": "Bana Ulaş",
             "github": "Github",
             "linkedin": "Linkedin",
@@ -171,16 +178,20 @@
             "title": "Beceriler",
             "items": [
                 {
-                    "name": "JavaScript",
-                    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ama Türkçe"
+                    "name": "JavaScript / React",
+                    "description": "JavaScript dilinde uzmanlaşmış bir geliştiriciyim. ES6+ özelliklerini etkin bir şekilde kullanarak, async/await, arrow functions gibi modern JavaScript yapılarıyla temiz ve okunaklı kodlar yazıyorum. React kütüphanesini kullanarak karmaşık kullanıcı arayüzlerini yönetilebilir ve yeniden kullanılabilir bileşenlere ayırıyorum. JSX sözdizimini kullanarak HTML benzeri bir yapıda bileşenler oluşturuyorum. Hooks gibi modern React özelliklerini kullanarak state yönetimi ve yan etkileri etkili bir şekilde yönetiyorum. Redux veya Context API gibi state yönetimi çözümleriyle büyük ölçekli uygulamalar geliştirebiliyorum. React Router ile tek sayfalı uygulamalar oluşturuyorum."
                 },
                 {
-                    "name": "React.Js",
-                    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ama Türkçe"
+                    "name": "HTML / CSS",
+                    "description": "Modern ve kullanıcı dostu web arayüzleri oluşturmak için HTML, CSS ve Tailwind CSS teknolojilerini kullanıyorum. Tailwind CSS'in sunduğu utility-first yaklaşımı sayesinde hızlı ve özelleştirilebilir tasarımlar yapıyorum. Responsive tasarım prensipleriyle farklı ekran boyutlarına uyumlu web siteleri geliştirmekteyim."
                 },
                 {
-                    "name": "Node.Js",
-                    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ama Türkçe"
+                    "name": "Java / Spring Boot",
+                    "description": "Spring Boot çerçevesini kullanarak yüksek performanslı ve ölçeklenebilir mimarileri tasarlıyorum. Spring MVC ile RESTful API'ler geliştirirken, Spring Data JPA ile veritabanı işlemlerini kolaylaştırıyorum. Spring Security ile güvenlik katmanları oluşturarak uygulamalarımı koruyorum. Maven ile proje yapılandırması yaparak geliştirme sürecini optimize ediyorum."
+                },
+                {
+                    "name": "SQL",
+                    "description": "PostgreSQL ve MS SQL üzerindeki deneyimimle, JOIN, GROUP BY, HAVING, WHERE gibi SQL komutlarını etkin bir şekilde kullanarak veri tabanlarından istediğim bilgileri elde ediyorum. Ayrıca, stored procedure, function gibi gelişmiş SQL nesnelerini tasarlayıp yönetebiliyorum."
                 }
             ]
         },
@@ -203,15 +214,14 @@
                     },
                     {
                         "label": "Tercih ettiği rol",
-                        "value": "Frontend, UI"
+                        "value": "Frontend Developer, Backend Developer, Data Analyst"
                     }
                 ]
             },
             "aboutMe": {
                 "title": "Hakkımda",
                 "descriptions": [
-                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-                    "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! tabii ki Türkçe"
+                    "Yaklaşık 6 yıllık geomatik mühendisliği deneyimimden sonra kariyerime yeni bir yön vermek istiyorum. Öncelikle HTML, CSS ve JavaScript'i kendi kendime öğrendim ve daha fazlası için 6 aylık bir full stack kursuna gittim. Şu anda React, Redux, Context API, TailwindCSS, HTML, Javascript, Java, Spring Bot ve SQL hakkında oldukça bilgiliyim ve daha fazlası için şimdi buradayım :)"
                 ]
             }
         },
@@ -219,51 +229,53 @@
             "title": "Projeler",
             "items": [
                 {
-                    "title": "Workintech",
-                    "image": "/project1.png",
+                    "title": "Bütçe Takip Uygulaması",
+                    "image": "/budget-tracking.png",
                     "description": "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Bu, vanilya JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur ve git deposu, kod ve temalarda her türlü özelleştirmeyi mümkün kılar.",
                     "technologies": [
-                        "react",
-                        "redux",
-                        "axios"
+                        "Next.js",
+                        "Tailwind CSS",
+                        "Context API",
+                        "Recharts"
                     ],
                     "github": "Github",
                     "viewSite": "Web Sitesi",
                     "links": {
-                        "github": "https://github.com/oztrkmrt",
-                        "viewSite": "#"
+                        "github": "https://github.com/oztrkmrt/Budget-Tracking",
+                        "viewSite": "https://budget-tracking-pi.vercel.app/"
                     }
                 },
                 {
-                    "title": "Random Jokes",
-                    "image": "/project2.png",
-                    "description": "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Bu, vanilya JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur ve git deposu, kod ve temalarda her türlü özelleştirmeyi mümkün kılar.",
+                    "title": "Pizza Uygulaması",
+                    "image": "/pizza.png",
+                    "description": "React kütüphanesi kullanılarak geliştirilen bu web uygulaması, kullanıcıların kolaylıkla pizza siparişlerini oluşturabilmelerini sağlar. Kullanıcılar, pizza boyutunu, hamur türünü ve çeşitli malzemeleri seçerek kendi pizzalarını özelleştirebilirler. Ayrıca, sipariş notu ekleyerek özel taleplerini belirtebilir ve sipariş adetini belirleyebilirler.Sipariş tamamlandıktan sonra kullanıcılar, siparişlerinin özetini içeren bir sayfaya yönlendirilir. Bu sayfada seçilen malzemeler, boyut, hamur türü, sipariş notu ve toplam fiyat gibi bilgiler yer alır.",
                     "technologies": [
-                        "react",
-                        "redux",
-                        "axios"
+                        "React",
+                        "Bootstrap",
+                        "Axios"
                     ],
                     "github": "Github",
                     "viewSite": "Web Sitesi",
                     "links": {
-                        "github": "https://github.com/oztrkmrt",
-                        "viewSite": "#"
+                        "github": "https://github.com/oztrkmrt/Pizza-App",
+                        "viewSite": "https://vercel.com/merts-projects-06528c03/pizza-app"
                     }
                 },
                 {
-                    "title": "Journey",
-                    "image": "/project3.png",
-                    "description": "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Bu, vanilya JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur ve git deposu, kod ve temalarda her türlü özelleştirmeyi mümkün kılar.",
+                    "title": "E-Ticaret Uygulaması",
+                    "image": "/e-commerce.png",
+                    "description": "Bu e-ticaret uygulaması, modern web teknolojileri kullanılarak geliştirilmiş, kullanıcı dostu ve ölçeklenebilir bir platformdur. Farklı ekran boyutlarında (bilgisayar, tablet, mobil) sorunsuz çalışan bu uygulama, kullanıcıların ürünleri kolayca keşfetmesini, sepetlerine eklemesini ve güvenli bir şekilde satın almasını sağlar. Ayrıca kategorilere ve filtreleme seçeneklerine sahip bir ürün kataloğu bulunur .Kullanıcıların ürünleri sepetlerine ekleyip çıkarabilmeleri, miktarları değiştirebilmeleri ve sipariş özetini görüntüleyebilmeleri sağlanmıştır.",
                     "technologies": [
-                        "react",
-                        "redux",
-                        "axios"
+                        "React",
+                        "Redux",
+                        "Tailwind CSS",
+                        "Axios"
                     ],
                     "github": "Github",
                     "viewSite": "Web Sitesi",
                     "links": {
-                        "github": "https://github.com/oztrkmrt",
-                        "viewSite": "#"
+                        "github": "https://github.com/oztrkmrt/E-Commerce",
+                        "viewSite": "https://vercel.com/merts-projects-06528c03/e-commerce"
                     }
                 }
             ]
@@ -274,11 +286,13 @@
             "personalBlog": "Kişisel Blog",
             "github": "Github",
             "linkedin": "Linkedin",
+            "CV": "Özgeçmiş",
             "image": "/mail-logo.png",
             "links": {
                 "personalBlog": "#",
                 "github": "https://github.com/oztrkmrt",
-                "linkedin": "https://www.linkedin.com/in/mert-öztürk-864693b8/"
+                "linkedin": "https://www.linkedin.com/in/mert-öztürk-864693b8/",
+                "CV": "https://drive.google.com/file/d/11Tfw0QorRX47w9irhkxlxy0CBWNVGKqS/view?usp=drive_link"
             }
         }
     }

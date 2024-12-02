@@ -11,8 +11,8 @@ const Profile = () => {
             <hr className="bg-[#BAB2E7] border border-[#BAB2E7] w-full mx-auto my-8" />
             <div className="mx-auto flex flex-col p-10">
                 <h2 className="text-black font-semibold text-5xl mb-6 text-start py-8 dark:text-[#AEBCCF]">{profile.title}</h2>
-                <div className="flex items-center gap-10">
-                    <div className="flex flex-col gap-2  w-3/5">
+                <div className="flex items-center gap-20">
+                    <div className="flex flex-col gap-2  w-2/5">
                         <h3 className="text-[#4338CA] font-medium text-3xl my-4 dark:text-[#B7AAFF]">{profile.profileInformation.title}</h3>
 
                         {profile.profileInformation.items.map((item, i) => {
@@ -25,13 +25,10 @@ const Profile = () => {
                         })}
 
                     </div>
-                    <div className="pb-4">
+                    <div className="pb-4 w-3/5">
                         <h3 className="text-[#4338CA] font-medium text-3xl my-2 dark:text-[#B7AAFF]">{profile.aboutMe.title}</h3>
                         <p className="text-[#6B7280] my-8 dark:text-white">
-                            {profile.aboutMe.descriptions[0]}
-                        </p>
-                        <p className="text-[#6B7280] dark:text-white">
-                            {profile.aboutMe.descriptions[1]}s
+                            {profile.aboutMe.descriptions}
                         </p>
                     </div>
                 </div>
