@@ -19,7 +19,7 @@ const Footer = () => {
                         <a className="text-[#0A0A14] ml-8 dark:text-[#E1E1FF]" href={footer.links.personalBlog}>{footer.personalBlog}</a>
                         <a className="text-[#00AB6B] ml-8 dark:text-[#17D18B]" href={footer.links.github}>{footer.github}</a>
                         <a className="text-[#0077B5] ml-8 dark:text-[#0BA6F6]" href={footer.links.linkedin}>{footer.linkedin}</a>
-                        <a className="text-[#0077B5] ml-8 dark:text-[#0BA6F6]" href={footer.links.CV}>{footer.CV}</a>
+                        <a className="text-[#640D5F] ml-8 dark:text-[#8866AA]" href={footer.links.CV}>{footer.CV}</a>
                     </div>
                 </div>
             </div>
