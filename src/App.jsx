@@ -18,7 +18,7 @@ function App() {
   return (
 
     <div className={`${darkMode}`}>
-      <div className='mode'>
+      <div className='mode px-10 flex flex-col gap-4'>
         <ModeSwitch />
         <Header />
         <Hero />

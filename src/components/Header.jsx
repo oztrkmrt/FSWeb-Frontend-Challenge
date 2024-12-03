@@ -2,8 +2,7 @@ import { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
 
 const Header = () => {
-
-    const { mockData } = useContext(LanguageContext)
+    const { mockData } = useContext(LanguageContext);
     const { header } = mockData;
 
     const scroll = (id) => {
@@ -14,25 +13,30 @@ const Header = () => {
     };
 
     return (
-        <div className="px-20 py-12 w-4/5 mx-auto flex text-black justify-between mt-4">
-            <p className="text-[#7B61FF] font-bold py-3 px-4 rounded-full bg-[#EEEBFF]" style={{ transform: 'rotate(30deg)' }}>
+        <header className="px-4 py-4 flex flex-col md:flex-row md:justify-between md:items-center md:px-6">
+            <p className="text-[#7B61FF] font-bold mb-2 py-2 px-4 rounded-full bg-[#EEEBFF] self-start md:self-auto transform rotate-30">
                 M
             </p>
-            <nav className="flex items-center gap-20 text-lg text-[#6B7280] font-medium">
+            <nav className="flex flex-col gap-4 md:flex-row md:gap-20 text-lg text-[#6B7280] font-medium">
                 <div className="cursor-pointer" onClick={() => scroll("skills")}>
                     {header.skills}
                 </div>
                 <div className="cursor-pointer" onClick={() => scroll("projects")}>
                     {header.projects}
                 </div>
-                <div className="text-[#3730A3] bg-white py-1 px-4 border border-[#3730A3] rounded dark:bg-[#E1E1FF] dark:text-black">
-                    <a target="_blank" rel="noopener noreferrer" className="px-5 font-medium rounded " href="mailto:merttoztrk@gmail.com">
+                <div className="flex sm:justify-between md:justify-start">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-5 py-1 text-white bg-[#3730A3] font-semibold rounded mb-4 md:mb-0 dark:bg-[#E1E1FF] dark:text-black"
+                        href="mailto:merttoztrk@gmail.com"
+                    >
                         {header.hireMe}
                     </a>
                 </div>
             </nav>
-        </div>
-    )
-}
+        </header>
+    );
+};
 
 export default Header;

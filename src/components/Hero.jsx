@@ -3,28 +3,40 @@ import { LanguageContext } from "../context/LanguageContext";
 import { ThemeContext } from "../context/ThemeContext";
 
 const Hero = () => {
-    const { theme } = useContext(ThemeContext)
-    const { mockData } = useContext(LanguageContext)
-    const { hero } = mockData
+    const { theme } = useContext(ThemeContext);
+    const { mockData } = useContext(LanguageContext);
+    const { hero } = mockData;
 
     return (
-        <div className="p-20 w-4/5 mx-auto flex justify-between">
-            <div className="flex flex-col justify-between pr-20">
-                <div className="flex items-center">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-10 py-20 px-4 items-center mx-auto">
+            <div className="flex flex-col justify-between mb-10 md:mb-2 md:pr-10 px-2">
+                <div className="flex items-center mb-4">
                     <hr className="w-[6.375rem] border-[#4338CA] mr-2 dark:border-[#B7AAFF]" />
-                    <p className="text-[#4338CA] text-xl font-medium dark:text-[#B7AAFF]">
+                    <p className="text-[#4338CA] text-lg md:text-xl font-bold dark:text-[#B7AAFF]">
                         {hero.name}
                     </p>
                 </div>
-                <h1 className="text-[#1F2937] font-bold text-5xl dark:text-[#AEBCCF]">
+                <h1 className="text-[#1F2937] font-bold text-3xl md:text-5xl dark:text-[#AEBCCF] mb-4">
                     {hero.title}
                 </h1>
-                <p className="text-[#6B7280] text-lg dark:text-white">
+                <p className="text-[#6B7280] text-base md:text-lg dark:text-white mb-6">
                     {hero.description}
                 </p>
-                <div className="flex">
-                    <a target="_blank" rel="noopener noreferrer" className="px-5 pt-3 text-white bg-[#3730A3] font-semibold rounded mr-8 dark:bg-[#E1E1FF] dark:text-black" href="mailto:merttoztrk@gmail.com">{hero.hireMe}</a>
-                    <a target="_blank" rel="noopener noreferrer" className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded mr-8 dark:border-[#E1E1FF] dark:bg-[#383838] dark:text-[#E1E1FF]" href="https://github.com/oztrkmrt">
+                <div className="flex justify-center sm:justify-between md:justify-start gap-4">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-5 pt-3 text-white bg-[#3730A3] font-semibold rounded mb-4 md:mb-0 dark:bg-[#E1E1FF] dark:text-black text-center"
+                        href="mailto:merttoztrk@gmail.com"
+                    >
+                        {hero.hireMe}
+                    </a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded mb-4 md:mb-0 dark:border-[#E1E1FF] dark:bg-[#383838] dark:text-[#E1E1FF] text-center"
+                        href="https://github.com/oztrkmrt"
+                    >
                         <svg
                             width="26"
                             height="28"
@@ -39,7 +51,12 @@ const Hero = () => {
                         </svg>
                         {hero.github}
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded dark:border-[#E1E1FF] dark:bg-[#383838] dark:text-[#E1E1FF]" href="https://www.linkedin.com/in/mert-öztürk-864693b8/">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center px-3 py-2 gap-2 border border-[#3730A3] text-[#3730A3] font-semibold rounded mb-4 md:mb-0 dark:border-[#E1E1FF] dark:bg-[#383838] dark:text-[#E1E1FF] text-center"
+                        href="https://www.linkedin.com/in/mert-öztürk-864693b8/"
+                    >
                         <svg
                             width="24"
                             height="26"
@@ -52,13 +69,21 @@ const Hero = () => {
                                 fill={`${theme === "dark" ? "#BAB2E7" : "#3730A3"}`}
                             />
                         </svg>
-                        {hero.linkedin}</a>
+                        {hero.linkedin}
+                    </a>
                 </div>
             </div>
-            <img className="rounded-xl w-3/6 my-10" src={hero.heroImage} alt="" />
+            <div className="flex justify-end">
+                <img
+                    className="rounded-xl w-full md:w-4/6 my-4 md:my-10"
+                    src={hero.heroImage}
+                    alt=""
+                />
+            </div>
 
-        </div>
-    )
-}
+
+        </section>
+    );
+};
 
 export default Hero;

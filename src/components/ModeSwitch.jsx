@@ -11,7 +11,7 @@ const ModeSwitch = () => {
     const { modeswitch } = mockData;
 
     return (
-        <div className="px-20 py-12 w-4/5 mx-auto flex text-black justify-end mt-4">
+        <div className="px-6 py-12 w-full mx-auto flex text-black md:justify-end mt-4">
             <div className="flex">
                 <div className="flex items-center justify-center">
                     <button

@@ -231,7 +231,7 @@
                 {
                     "title": "Bütçe Takip Uygulaması",
                     "image": "/budget-tracking.png",
-                    "description": "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Bu, vanilya JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur ve git deposu, kod ve temalarda her türlü özelleştirmeyi mümkün kılar.",
+                    "description": "Bu proje, kullanıcıların gelir ve giderlerini takip edebilecekleri kişisel bir bütçe uygulamasıdır. Kullanıcılar gelirlerini takip edebilir ve gider kalemlerini girerek ve harcamalarını kategorize ederek bütçelerini yönetebilirler. Uygulama, kullanıcıların harcama limitlerine ulaşmadan önce uyarılar yaparak onları bilgilendirebilmelerini sağlar. Ayrıca gelir ve gider raporları görselleştirilebiliyor.",
                     "technologies": [
                         "Next.js",
                         "Tailwind CSS",
@@ -258,7 +258,7 @@
                     "viewSite": "Web Sitesi",
                     "links": {
                         "github": "https://github.com/oztrkmrt/Pizza-App",
-                        "viewSite": "https://vercel.com/merts-projects-06528c03/pizza-app"
+                        "viewSite": "https://pizza-app-rho-puce.vercel.app/"
                     }
                 },
                 {
@@ -275,7 +275,7 @@
                     "viewSite": "Web Sitesi",
                     "links": {
                         "github": "https://github.com/oztrkmrt/E-Commerce",
-                        "viewSite": "https://vercel.com/merts-projects-06528c03/e-commerce"
+                        "viewSite": "https://e-commerce-five-rust.vercel.app"
                     }
                 }
             ]
